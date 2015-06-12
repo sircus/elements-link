@@ -1,0 +1,20 @@
+
+// Converted Variables
+
+$link-color: $g-primary !default;
+$link-color-hover: $g-primary-dark !default;
+
+// Custom Media Query Variables
+
+
+/*
+ * sircus-elements-link
+ ================================================== */
+a {
+  color: $link-color;
+}
+a:hover,
+a:focus,
+a:active  {
+  color: $link-color-hover;
+}
