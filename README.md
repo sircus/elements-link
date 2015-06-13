@@ -21,22 +21,22 @@ $ npm install sircus-elements-link && npm install sircus-global-proprety
 
 input.css
 ```css
-@import "sircus-global-proprety"
-@import "sircus-elements-link"
+@import "sircus-elements-link";
+@import "sircus-global-proprety";
 ```
 
 > use sass:
 
 input.scss
 ```css
-@import "node_modules/sircus-global-proprety/converted"
-@import "node_modules/sircus-elements-link/converted"
+@import "node_modules/sircus-global-proprety/converted";
+@import "node_modules/sircus-elements-link/converted";
 ```
 
 > html
 
 ```html
-<a>...</a>
+<a href="./">...</a>
 ```
 
 
